@@ -1,3 +1,13 @@
+<!-- <script type="text/javascript">
+	function getshouw(){
+		var Div1=document.getElementById('right');
+		 Div1.style.display='block';
+	}
+	function getout(){
+				var Div1=document.getElementById('right');
+		 Div1.style.display='none';
+	}
+</script> -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,26 +34,42 @@
 			float: left;
 			margin: 0;
 			padding: 0;
-			width: 360px;
+			width: 300px;
+			height: 300px;
 			background: #0080FF;
 		}
 		#right{
-			float: right;
+			float: left;
 			margin: 0;
 			padding: 0;
-			width: 1000px;
-			background: #0080FF;
+			width: 300px;
+			height: 300px;
+			background: #FFED97;
+			display: none;
 
 		}
+		
+
 
 	</style>
+<script type="text/javascript">
+	function getshouw(){
+		var Div1=document.getElementById('right');
+		 Div1.style.display='block';
+	}
+	function getout(){
+				var Div1=document.getElementById('right');
+		 Div1.style.display='none';
+	}
+</script>
 </head>
 <body>
 <div id="head">
 < <font size="6" color="grey">Mr xie's blog</font> 
 </div>
+<!-- 头部分 -->
 <div id="div1">
-<div id="left">
+<div id="left" onmouseover="getshouw()" onmouseout="getout()">
 <br>
 <br>
     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504445802027&di=9b166c3549bad235a40b581904336711&imgtype=0&src=http%3A%2F%2Fimg.sj33.cn%2Fuploads%2Fallimg%2F201304%2F1323323T6-3.png" height="100" width="200">
@@ -53,6 +79,19 @@
 	
 </div>
 <div id="right">
+<br>
+<br>
+                <ul>
+                	<li>姓名：谢鸿明</li>
+                	<li>性别：男</li>
+                    <li>体重：55kg</li>
+                    <li>身高：180cm</li>
+                    <br>
+                    <br>
+                    沈阳化工大学2015级计算机系在校生，一个科技爱好者。
+                </ul>  
+	</div>
+
 	<br>
 	<br>
 	<br>
@@ -61,10 +100,14 @@
 	<pre>                                   <font size="4" color="#FFFFFF">you're welcome!</font></pre> 
 	 <form action="http://blog.csdn.net/sinat_36239376">
 	  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-       	<input type="submit" value="Mr xie的博客" >
+       	<input type="submit" value="Mr xie的博客"">
+
        </form>
-	</div>
+
+	
 </div>
+<!-- 中间 -->
+
 
 </body>
 </html>
