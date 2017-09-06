@@ -13,6 +13,7 @@
 <head>
 	<title>Mr xie</title>
 	<meta charset="utf-8">
+	<link id="link1" rel="stylesheet" type="text/css" href="2.css">
 	<style type="text/css">
 	body{
 		padding: 0px;
@@ -28,7 +29,7 @@
 			 margin: 0px;
 			 padding: 0px;
 			 height: 300px;
-			 background: #0080FF;
+			 
 		}
 		#left{
 			float: left;
@@ -36,7 +37,7 @@
 			padding: 0;
 			width: 300px;
 			height: 300px;
-			background: #0080FF;
+			
 		}
 		#right{
 			float: left;
@@ -48,7 +49,7 @@
 			display: none;
 
 		}
-		
+
 
 
 	</style>
@@ -66,6 +67,10 @@
 <body>
 <div id="head">
 < <font size="6" color="grey">Mr xie's blog</font> 
+<form >
+     <input type="button" value="皮肤1" onclick="document.getElementById('link1').href='2.css'";>
+	<input type="button" value="皮肤2" onclick="document.getElementById('link1').href='1.css'";>
+</form>
 </div>
 <!-- 头部分 -->
 <div id="div1">
@@ -95,13 +100,12 @@
 	<br>
 	<br>
 	<br>
-	<pre>                                           <font size="4" color="#FFFFFF">This is Mr xie's blog. </font> <br></pre> 
-	<pre>                                           <font size="4" color="#FFFFFF">Here witnessed the growth of Mr Xie.</font> </pre>
-	<pre>                                           <font size="4" color="#FFFFFF">you're welcome!</font></pre> 
-	<br>
+	<pre>                               <font size="4" color="#FFFFFF">This is Mr xie's blog. </font> <br></pre> 
+	<pre>                               <font size="4" color="#FFFFFF">Here witnessed the growth of Mr Xie.</font> </pre>
+	<pre>                               <font size="4" color="#FFFFFF">you're welcome!</font></pre> 
 	 <form action="http://blog.csdn.net/sinat_36239376">
-	  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-       	<input type="submit" value="Mr xie的博客"">
+	  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       	<input type="submit" id="z1" value="Mr xie的博客"">
 
        </form>
 
