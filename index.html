@@ -4,6 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title></title>
+    <script type="text/javascript">	
+	alert('hi 终于等到你了');	
+	 alert('我在这等你很久了');	
+	 var r=confirm("你还会继续关注我吗？");	
+         while(r==false){	
+         alert('请好好回答');	
+          r=confirm("你还会继续关注我吗？");	
+          }	
+          alert('那就4.19号再来看看');	
+          alert('我会给你准备惊喜');	
+          var s=confirm("所以，你有没有被我撩到？");	
+          while(s==false){	
+            alert('请好好回答');	
+            s=confirm("所以，你有没有被我撩到？");	
+          }	
+	function getshouw(){	
+		var Div1=document.getElementById('right');	
+		 Div1.style.display='block';	
+	}	
+	function getout(){	
+				var Div1=document.getElementById('right');	
+		 Div1.style.display='none';	
+	}	
+		window.onload=function()	
+		{	
+			var p1=document.getElementById('p0');	
+			var ul1=document.getElementById('ul0');	
+			p1.onclick=function()	
+			{	
+				if(ul1.style.display=='block')	
+				{	
+					ul1.style.display='none';	
+				}	
+				else	
+				{	
+					ul1.style.display='block';	
+				}	
+			};	
+		};	
+</script>
 </head>
 
 <body>
